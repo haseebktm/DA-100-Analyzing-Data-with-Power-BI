@@ -116,7 +116,7 @@ In this task you will configure the **Salesperson** query.
 
 	![Picture 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
-2. To rename the query, in the **Query Settings** pane (located at the right), in the **Name** box, replace the text with **Salesperson**, and then press **Enter**.
+2. To rename the query, in the **Query** pane (located at the top right) and click the properties button, in the **Name** box, replace the text with **Salesperson**, and then press **Enter**.
 
 	*The query name will determine the model table name. It’s recommended to define concise, yet friendly, names.*
 
@@ -146,21 +146,18 @@ In this task you will configure the **Salesperson** query.
 
 	![Picture 96](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image16.png)
 
-9. In the **Query Settings** pane, in the **Applied Steps** list, notice the addition of the **Filtered Rows** step.
-
-	![Picture 98](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
 
 	*Each transformation you create results in additional step logic. It’s possible to edit or delete steps. It’s also possible to select a step to preview the query results at that stage of the query transformation.*
 
-10. To remove columns, on the **Home** ribbon tab, from inside the **Manage Columns** group, click the **Choose Columns** icon.
+9. To remove columns, on the **Home** ribbon tab, from inside the **Manage Columns** group, click the **Choose Columns** icon.
 
 	![Picture 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
-11. In the **Choose Columns** window, to uncheck all columns, uncheck the **(Select All Columns)** item.
+10. In the **Choose Columns** window, to uncheck all columns, uncheck the **(Select All Columns)** item.
 
 	![Picture 102](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image19.png)
 
-12. To include columns, check the following six columns:
+11. To include columns, check the following six columns:
 
 	- EmployeeKey
 
@@ -174,47 +171,47 @@ In this task you will configure the **Salesperson** query.
 
 	- EmailAddress
 
-13. Click **OK**.
+12. Click **OK**.
 
 	![Picture 104](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image20.png)
 
-14. In the **Applied Steps** list, notice the addition of another query step.
+13. In the **Applied Steps** list, notice the addition of another query step.
 
 	![Picture 112](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image21.png)
 
-15. To create a single name column, first select the **FirstName** column header.
+14. To create a single name column, first select the **FirstName** column header.
 
-16. While pressing the **Ctrl** key, select the **LastName** column.
+15. While pressing the **Ctrl** key, select the **LastName** column.
 
 	![Picture 116](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
 
-17. Right-click either of the select column headers, and then in the context menu, select **Merge Columns**.
+16. Right-click either of the select column headers, and then in the context menu, select **Merge Columns**.
 
 	![Picture 117](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image23.png)
 
 	*Many common transformations can be applied by right-clicking the column header, and then choosing them from the context menu. Note, however, more transformations are available in the ribbon.*
 
-18. In the **Merge Columns** window, in the **Separator** dropdown list, select **Space**.
+17. In the **Merge Columns** window, in the **Separator** dropdown list, select **Space**.
 
-19. In the **New Column Name** box, replace the text with **Salesperson**.
+18. In the **New Column Name** box, replace the text with **Salesperson**.
 
 	![Picture 119](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image24.png)
 
-20. Click **OK**.
+19. Click **OK**.
 
 	![Picture 5636](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image25.png)
 
-21. To rename the **EmployeeNationalIDAlternateKey** column, double-click the **EmployeeNationalIDAlternateKey** column header.
+20. To rename the **EmployeeNationalIDAlternateKey** column, double-click the **EmployeeNationalIDAlternateKey** column header.
 
-22. Replace the text with **EmployeeID**, and then press **Enter**.
+21. Replace the text with **EmployeeID**, and then press **Enter**.
 
 	*Important: When instructed to rename columns, it’s important that you rename them exactly as described.*
 
-23. Use the previous steps to rename the **EmailAddress** column to **UPN**.
+22. Use the previous steps to rename the **EmailAddress** column to **UPN**.
 
 	*UPN is an acronym for User Principal Name. The values in this column will be used when you configure row-level security in the **Model Data in Power BI Desktop, Part 2** lab.*
 
-24. At the bottom-left, in the status bar, verify that the query has five columns and 18 rows.
+23. At the bottom-left, in the status bar, verify that the query has five columns and 18 rows.
 
 	![Picture 5638](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image26.png)
 
