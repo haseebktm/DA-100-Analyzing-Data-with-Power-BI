@@ -121,9 +121,8 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 	*Tip: You’re encouraged to enter “white space” (i.e. carriage returns and tabs) to layout formulas in an intuitive and easy-to-read format—especially when formulas are long and complex. To enter a carriage return, press **Shift+Enter**. “White space” is optional.*
 
-3. In the **Fields** pane, notice that the table icon is a shade of blue (denoting a calculated table).
+3. In the **Fields** pane, notice that the calculator icon is showing on the table of sales person
 
-	![Picture 10](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image11.png)
 
 	*Calculated tables are defined by using a DAX formula which returns a table. It’s important to understand that calculated tables increase the size of the data model because they materialize and store values. They’re recomputed whenever formula dependencies are refreshed, as will be the case for this data model when new (future) date values are loaded into tables.*
 
