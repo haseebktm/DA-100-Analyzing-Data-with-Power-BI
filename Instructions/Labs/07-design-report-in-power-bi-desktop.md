@@ -415,7 +415,7 @@ In this task you will design the third—and final—report page. When you’ve 
 
 	- In the **Data Labels** group, increase the **Text Size** property to **28pt**
 
-	- In the **Background** group, set the **Color** to a light gray color
+	- In the **Card** group, set the **Background Color** to a light gray color
 
 	![Picture 79](Linked_image_Files/07-design-report-in-power-bi-desktop_image53.png)
 
