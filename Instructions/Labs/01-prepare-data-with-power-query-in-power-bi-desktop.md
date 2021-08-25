@@ -234,7 +234,7 @@ In this task you will preview the data of the SQL Server queries. First, you wil
 
 	![Picture 49](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image29.png)
 
-	The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or value add to the Adventure Works products.
+	The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or add value to the Adventure Works products.
 
 16. To view column values, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Profile**.
 
