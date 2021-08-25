@@ -139,9 +139,9 @@ In this task you will create a many-to-many relationship between the **Salespers
 
 8. To edit the relationship between the **Region** and **SalespersonRegion** tables, double-click the relationship.
 
-9. In the **Edit Relationship** window, in the **Cross Filter Direction** dropdown list, select **Both**.
+9. In the **Edit Relationship** window, click on the **Cross Filter Direction** dropdown list, select **Both** with keyboard down arrow and press enter
 
-10. Check the **Apply Security Filter in Both Directions** checkbox.
+10. Check the **Apply Security Filter in Both Directions** checkbox 
 
 	![Picture 381](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image12.png)
 
